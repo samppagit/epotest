@@ -1,0 +1,5 @@
+python-epo-ops-client==4.2.0
+lxml>=5.2
+python-dotenv>=1.0
+psycopg[binary]>=3.2
+requests>=2.32
