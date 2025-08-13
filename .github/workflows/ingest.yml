@@ -1,0 +1,11 @@
+name: Daily EPO ingest
+on:
+  schedule:
+    - cron: "0 4 * * *"   # 04:00 UTC = 07:00 Helsinki (summer)
+  workflow_dispatch: {}
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      # ... (rest of steps)
